@@ -10,16 +10,13 @@ import Link from 'next/link';
 import { FiMenu } from "react-icons/fi";
 import { RxCross1 } from "react-icons/rx";
 
-console.log(headerBg);
-
-
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => {
         setOpen(!open);
     }
-    console.log(open);
+
     return (
         <>
             <header className='px-4'>
@@ -78,7 +75,7 @@ const Navbar = () => {
                     </ul>}
                 </nav>
 
-                <section className='container mx-auto py-16'>
+                <section className='container mx-auto pt-14'>
                     <Image className='absolute top-4 left-0 -z-50' src={headerBg} alt="" />
                     <div className="grid  md:grid-cols-2 gap-12 justify-between items-center">
                         <div className='relative'>
