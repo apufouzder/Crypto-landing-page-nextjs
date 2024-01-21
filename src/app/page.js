@@ -1,3 +1,4 @@
+import Features from '@/components/Features'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
 import Sponsor from '@/components/Sponsor'
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Sponsor />
       <Services />
+      <Features />
     </main>
   )
 }

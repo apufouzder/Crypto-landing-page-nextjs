@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <>
-            <header className=''>
+            <header className='mb-4 lg:mb-0'>
                 <nav className="relative container mx-auto flex justify-between items-center py-10">
                     <a className='flex text-xl font-medium items-end gap-2' href="/">
                         <Image width={35} height={35} quality={100} src={Logo} alt="Logo" />
