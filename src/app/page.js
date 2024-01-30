@@ -1,4 +1,5 @@
 import Features from '@/components/Features'
+import HowItWork from '@/components/HowItWork'
 import MakeStep from '@/components/MakeStep'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <Team />
       <MakeStep />
+      <HowItWork />
     </main>
   )
 }
