@@ -1,4 +1,5 @@
 import Features from '@/components/Features'
+import MakeStep from '@/components/MakeStep'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
 import Sponsor from '@/components/Sponsor'
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Features />
       <Team />
+      <MakeStep />
     </main>
   )
 }
